@@ -8,6 +8,7 @@ export const addToCart=(data)=>{
 
 export const removeToCart=(data)=>{
     return{
-          type:"REMOVE_TO_CART"
+          type:"REMOVE_TO_CART",
+          data:data
     }
 }
